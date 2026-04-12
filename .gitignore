@@ -1,0 +1,17 @@
+venv/
+.claude/
+timers.json
+__pycache__/
+*.pyc
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Vosk model cache (downloaded on first run)
+vosk-model*/
+
+# Audio files (large binary — store externally)
+*.wav
+*.mp3

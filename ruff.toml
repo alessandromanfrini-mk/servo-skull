@@ -1,0 +1,5 @@
+target-version = "py311"
+
+[lint]
+select = ["E", "F", "W", "I"]   # pycodestyle errors/warnings, pyflakes, isort
+ignore = ["E501"]                # line length — not enforced for scripts

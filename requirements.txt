@@ -1,0 +1,8 @@
+# Direct runtime dependencies — pinned for reproducibility.
+# Re-generate with: pip freeze > requirements.txt
+anthropic==0.86.0
+numpy==2.4.3
+sounddevice==0.5.5
+soundfile==0.13.1
+SpeechRecognition==3.15.1
+vosk==0.3.45
