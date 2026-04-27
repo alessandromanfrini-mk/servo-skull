@@ -5,8 +5,9 @@ Listens via microphone (or text input as fallback), responds with voice + text.
 
 import os
 import sys
-import numpy as np
+
 import anthropic
+import numpy as np
 import pyttsx3
 import sounddevice as sd
 import speech_recognition as sr
