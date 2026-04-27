@@ -15,7 +15,8 @@ import time
 from datetime import datetime
 
 import sounddevice as sd
-from vosk import KaldiRecognizer, Model as VoskModel
+from vosk import KaldiRecognizer
+from vosk import Model as VoskModel
 
 WAKE_PHRASE  = "servo skull"
 SAMPLE_RATE  = 16000
